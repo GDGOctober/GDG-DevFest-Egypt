@@ -21,27 +21,19 @@ $(".nav-item a").css("color","#fff")
         
     }
 });
-//$(document).ready(function(){
-//  $("a.nv").on('click', function(event) {
-//    if (this.hash !== "") {
-//      event.preventDefault();
-//      var hash = this.hash;
-//      $('html, body').animate({
-//        scrollTop: $(hash).offset().top-70
-//      }, 800, function(){
-//        window.location.hash = hash;
-//      });
-//    } 
-//  });
-//});
-$("a.nv").click(function(){
-    
-   var href = $(this).attr("href");
-   var g =  $(href).offset().top-70;
-$("html,body").animate({scrollTop:g},1000)
-   
-   
-})
+$(document).ready(function(){
+  $("a.nv").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
 var Off = $("#about").offset().top
 $(window).scroll(function(){
 
