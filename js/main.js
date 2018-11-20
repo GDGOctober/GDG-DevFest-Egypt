@@ -8,16 +8,17 @@ $(window).scroll(function(){
          
 $(".custom-nav").css("backgroundColor","#fff")
 $(".custom-nav").css("boxShadow","5px 5px 15px 0 rgba(31, 31, 31, 0.07)")
-$(".custom-nav").css("height","60px")        
 $(".nav-item a").css("color","#000")
-         
+$(".navbar-toggler").addClass("toggler-dark")
+$("span.navbar-toggler-icon").addClass("navbar-toggler-icon-dark")
      }
 else
     {
 $(".custom-nav").css("backgroundColor","transparent") 
 $(".custom-nav").css("boxShadow","none")
-$(".custom-nav").css("height","60px")
 $(".nav-item a").css("color","#fff")
+$(".navbar-toggler").removeClass("toggler-dark")
+$("span.navbar-toggler-icon").removeClass("navbar-toggler-icon-dark")
         
     }
 });
