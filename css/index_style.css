@@ -56,15 +56,19 @@ span.navbar-toggler-icon-dark{
 }
 .n{
     color: #5B81C1;
+    letter-spacing: -1rem;
 }
 .u{
     color: #DD4E3B;
+    letter-spacing: -1rem;
 }
 .m{
     color: #FFC115;
+    letter-spacing: -1rem;
 }
 .b{
     color: #179E58;
+    letter-spacing: -1rem;
 }
 hr.green{
     border: 1px solid #179E58;
