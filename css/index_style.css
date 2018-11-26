@@ -56,19 +56,15 @@ span.navbar-toggler-icon-dark{
 }
 .n{
     color: #5B81C1;
-    letter-spacing: -1rem;
 }
 .u{
     color: #DD4E3B;
-    letter-spacing: -1rem;
 }
 .m{
     color: #FFC115;
-    letter-spacing: -1rem;
 }
 .b{
     color: #179E58;
-    letter-spacing: -1rem;
 }
 hr.green{
     border: 1px solid #179E58;
@@ -134,7 +130,7 @@ section{
   right: 0;
   background-color: rgba(221, 78, 59,.7);
   overflow: hidden;
-  width: 90%;
+  width: 100%;
   transform: translateX(15px);
   height: 0;
   transition: .5s ease;
@@ -558,6 +554,12 @@ span.code a{
      iframe{
         width:1348px;
         height: 550px;
+    }
+    .n,.u,.m,.b{
+        letter-spacing: -1rem;
+    }
+    .img-cover{
+        width: 90%;
     }
 }
 hr{
