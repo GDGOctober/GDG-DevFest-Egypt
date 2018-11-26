@@ -533,8 +533,10 @@ section#timeline-hack,section#agenda{
 .card-title-4,.card-text-4{
     color:#179E58; 
 }
-
-
+span.code a{
+     color: #DD4E3B;
+    text-decoration: none;
+}
 .lo-h{
     font-size:1.7rem;
     letter-spacing: -1px;
